@@ -1,0 +1,47 @@
+.container {
+  min-height: 150px;
+  margin-bottom: 20px;
+}
+
+.title {
+  display: block;
+  padding: 20px 5px;
+
+  color: rgb(111, 121, 124);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.btn__wrapper {
+  height: 40px;
+  padding: 5px;
+  display: flex;
+}
+
+.btn {
+  display: block;
+  padding: 5px 20px;
+
+  color: #fff;
+  text-align: center;
+  background-color: teal;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 1px 3px 10px -4px #050505;
+  outline: none;
+  cursor: pointer;
+
+  transition: transform 250ms linear;
+}
+
+.btn:not(:last-child) {
+  margin-right: 15px;
+}
+
+.btn:hover {
+  color: #000;
+  background-color: rgb(185 233 242);
+  border: 1px solid teal;
+  transform: scale(1.1);
+}

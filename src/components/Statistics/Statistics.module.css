@@ -1,0 +1,28 @@
+.container {
+  padding: 20px 5px;
+  background-color: #fff;
+  border: 1px solid teal;
+  border-radius: 5px;
+  /* box-shadow: 1px 3px 10px -4px #050505; */
+}
+
+.title {
+  display: block;
+  color: rgb(111, 121, 124);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.wrapper {
+  color: rgb(111, 121, 124);
+  line-height: 25px;
+}
+
+.wrapper p:last-child {
+  font-weight: 600;
+}
+
+.percentage {
+  color: rgb(111, 121, 124);
+}
